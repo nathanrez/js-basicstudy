@@ -15,7 +15,6 @@ for(let i = 0; i <= 20; i+= 2) {
 }
 
 // ex2
-
 const numeros = [3, 7, 2, 10];
 let total = 0;
 
@@ -33,7 +32,6 @@ for(i = 10; i >= 0; i--){
 
 
 // ex4
-
 const nomes = ["Augusto","Joao","Ana", "clara", "vitor", "antonio"];
 
 for (let i = 0; i < nomes.length; i++) {
@@ -66,3 +64,28 @@ for(i = 0; i < num.length; i++){
         console.log(valida);
     }
 }
+
+//ex7
+const idades = [12, 25, 8, 19, 42, 17, 30];
+
+for(i = 0; i < idades.length; i++){
+    let  validaIdade = idades[i];
+
+    if(validaIdade >= 18){
+        console.log("é maior de idade");
+    }
+}
+
+//ex8 
+const number = [3, 10, 7, 22, 14, 9, 6, 1];
+const contador = 0;
+
+for(i = 0; i < number.length; i++){
+    let validar = number[i];
+    
+    if(validar % 2 == 0){
+        contador = contador + 1;
+    }
+}
+
+console.log(contador);
